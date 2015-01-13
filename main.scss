@@ -1,0 +1,18 @@
+---
+---
+
+@charset "utf-8";
+
+$san-serif: 'Open Sans', Arial, 'Hiragino Sans GB', 'Microsoft YaHei',
+            '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+
+@import "normalize";
+
+html {
+  font-family: $san-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  color: #556;
+}
+
+@import "index";
